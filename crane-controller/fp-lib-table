@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name fresnel)(type KiCad)(uri /home/miceuz/Xaltura/fresnel-spin/fresnel.pretty)(options "")(descr ""))
+  (lib (name neutrik)(type KiCad)(uri /home/miceuz/Xaltura/camera-crane/neutrik.pretty)(options "")(descr ""))
+  (lib (name alps)(type KiCad)(uri "$(KIPRJMOD)/alps.pretty")(options "")(descr ""))
+)

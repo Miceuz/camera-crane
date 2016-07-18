@@ -1,0 +1,32 @@
+Drill report for /home/miceuz/Xaltura/camera-crane/camera-crane/camera-crane-controller.kicad_pcb
+Created on Wed 13 Jul 2016 08:19:02 PM EEST
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'camera-crane-controller.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,60mm  0,024"  (104 holes)
+    T2  0,80mm  0,031"  (32 holes)
+    T3  0,90mm  0,035"  (4 holes)
+    T4  1,00mm  0,039"  (6 holes)
+    T5  1,00mm  0,039"  (92 holes)
+    T6  1,02mm  0,040"  (18 holes)
+    T7  1,30mm  0,051"  (6 holes)
+    T8  3,05mm  0,120"  (4 holes)
+
+    Total plated holes count 266
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T9  1,60mm  0,063"  (8 holes)
+    T10  3,20mm  0,126"  (6 holes)
+    T11  3,20mm  0,126"  (4 holes)
+
+    Total unplated holes count 18
