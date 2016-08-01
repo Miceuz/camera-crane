@@ -168,7 +168,7 @@ uint8_t touchPan() {
 
   Serial.println(String("PAN backlash ") + steps);
 
-  move(STEP_PAN, 2000, 0);
+  move(STEP_PAN, 1800, 0);
 
   digitalWrite(LED2, LOW);
   return 1;
@@ -222,6 +222,10 @@ void calibrate() {
   uint32_t startTs = millis();
 
   if(touchBase() && touchTilt() && touchPan()){ 
+    baseReverse();
+    pulseUs = 1000;
+    move(STEP_BASE, 100000, 0);
+
     Serial.println(String("Calibration took ") + (millis() - startTs) + String("ms"));
     for(int i = 0; i < 5; i++) {
       digitalWrite(LED1, HIGH);
